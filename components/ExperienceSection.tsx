@@ -1,6 +1,7 @@
 import { Activity, CheckCircle2, Cloud, ShieldCheck } from "lucide-react";
 import Image from "next/image";
 import { experience } from "@/data/portfolio";
+import { assetPath } from "@/lib/assets";
 import { MotionSection } from "./MotionSection";
 import { SectionHeading } from "./SectionHeading";
 
@@ -40,7 +41,7 @@ export function ExperienceSection() {
           <figure className="mt-8 overflow-hidden rounded-md border border-white/10 bg-[#050812]">
             <div className="relative aspect-[16/10]">
               <Image
-                src="/internship-experience.png"
+                src={assetPath("/internship-experience.png")}
                 alt="Muhammad Sufian during an internship meeting and technical presentation"
                 fill
                 sizes="(min-width: 1024px) 34vw, 100vw"

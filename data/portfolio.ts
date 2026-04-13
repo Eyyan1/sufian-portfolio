@@ -36,7 +36,7 @@ export const profile = {
   location: "Kuala Lumpur, Malaysia",
   linkedin: "https://www.linkedin.com/in/muhammad-sufian-che-saad-76b731362",
   github: "https://github.com/Eyyan1",
-  resumeUrl: "./SOC_muhd_sufian_resume.pdf",
+  resumeUrl: assetPath("/SOC_muhd_sufian_resume.pdf"),
 };
 
 export const navItems = [
@@ -108,21 +108,21 @@ export const skillCategories: SkillCategory[] = [
 ];
 
 export const skillIconMap: Record<string, string> = {
-  "System monitoring": "/icons/system.png",
-  "Microsoft Sentinel": "/icons/microsoft-sentinel.png",
-  Java: "/icons/java.png",
-  Python: "/icons/python.png",
-  PHP: "/icons/php.png",
-  TypeScript: "/icons/typescript.png",
-  JavaScript: "/icons/javascript.png",
-  SQL: "/icons/database.png",
-  Django: "/icons/django.png",
-  React: "/icons/react.png",
-  Linux: "/icons/linux.svg",
-  PostgreSQL: "/icons/postgresql.png",
-  MySQL: "/icons/database.png",
-  Selenium: "/icons/selenium.png",
-  GitHub: "/icons/github.png",
+  "System monitoring": assetPath("/icons/system.png"),
+  "Microsoft Sentinel": assetPath("/icons/microsoft-sentinel.png"),
+  Java: assetPath("/icons/java.png"),
+  Python: assetPath("/icons/python.png"),
+  PHP: assetPath("/icons/php.png"),
+  TypeScript: assetPath("/icons/typescript.png"),
+  JavaScript: assetPath("/icons/javascript.png"),
+  SQL: assetPath("/icons/database.png"),
+  Django: assetPath("/icons/django.png"),
+  React: assetPath("/icons/react.png"),
+  Linux: assetPath("/icons/linux.svg"),
+  PostgreSQL: assetPath("/icons/postgresql.png"),
+  MySQL: assetPath("/icons/database.png"),
+  Selenium: assetPath("/icons/selenium.png"),
+  GitHub: assetPath("/icons/github.png"),
 };
 
 export const recruiterSnapshot = [
@@ -198,7 +198,7 @@ export const projects: Project[] = [
       "Response history designed around auditability and analyst handoff",
     ],
     metrics: ["SOC workflow", "Triage-to-case", "Playbook driven"],
-    image: "/project-agentic-soc-dashboard.png",
+    image: assetPath("/project-agentic-soc-dashboard.png"),
     githubUrl: "https://github.com/Eyyan1/agentic-soc-console",
     demoUrl: "https://agentic-soc-console-18q6sv45z-eyyan1s-projects.vercel.app/",
   },
@@ -221,7 +221,7 @@ export const projects: Project[] = [
       "Deployment-oriented architecture across frontend, API, and database",
     ],
     metrics: ["Semantic rerank", "Structured API", "Production mindset"],
-    image: "/project-movie-reco-ai.png",
+    image: assetPath("/project-movie-reco-ai.png"),
     githubUrl: "https://github.com/Eyyan1/movie-reco-ai",
     demoUrl: "https://movie-reco-n55lwag5a-eyyan1s-projects.vercel.app/",
   },
@@ -244,7 +244,7 @@ export const projects: Project[] = [
       "MVC structure for maintainable feature separation",
     ],
     metrics: ["RBAC", "Survey workflow", "Reporting dashboard"],
-    image: "/project-happiness-index.png",
+    image: assetPath("/project-happiness-index.png"),
     githubUrl: "https://github.com/Eyyan1/Happiness-Index-System",
   },
 ];
@@ -254,26 +254,26 @@ export const certifications: Certification[] = [
     title: "CompTIA Security+",
     issuer: "CompTIA",
     note: "Valid until 2029",
-    image: "/cert-security-plus.svg",
+    image: assetPath("/cert-security-plus.svg"),
     featured: true,
   },
   {
     title: "Administer Active Directory Domain Services",
     issuer: "Microsoft Applied Skills",
     note: "Identity and directory administration",
-    image: "/cert-active-directory.svg",
+    image: assetPath("/cert-active-directory.svg"),
   },
   {
     title: "Pre Security Learning Path",
     issuer: "TryHackMe",
     note: "Networking, web, Linux, and security foundations",
-    image: "/cert-tryhackme.svg",
+    image: assetPath("/cert-tryhackme.svg"),
   },
   {
     title: "Associate Fellow",
     issuer: "OIPD-UK",
     note: "Professional development recognition",
-    image: "/cert-oipd.svg",
+    image: assetPath("/cert-oipd.svg"),
   },
 ];
 
@@ -294,3 +294,4 @@ export const careerGoal = {
     "AI-assisted security operations",
   ],
 };
+import { assetPath } from "@/lib/assets";

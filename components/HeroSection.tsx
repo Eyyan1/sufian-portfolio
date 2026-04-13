@@ -4,6 +4,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import { ArrowDown, Download, Mail, Radar, ShieldCheck } from "lucide-react";
 import { profile } from "@/data/portfolio";
+import { assetPath } from "@/lib/assets";
 
 export function HeroSection() {
   const { scrollYProgress } = useScroll();
@@ -101,7 +102,7 @@ export function HeroSection() {
 
           <div className="absolute inset-x-0 bottom-0 mx-auto h-[96%] max-w-[560px] overflow-hidden rounded-md border border-cyan-300/18 bg-[#071423] shadow-2xl shadow-cyan-950/35">
             <Image
-              src="/muhammad-sufian-portrait.png"
+              src={assetPath("/muhammad-sufian-portrait.png")}
               alt="Portrait of Muhammad Sufian Bin Che Saad"
               fill
               priority
