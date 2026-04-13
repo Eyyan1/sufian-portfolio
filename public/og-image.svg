@@ -1,0 +1,13 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#050812"/>
+  <path d="M0 430C210 350 330 530 540 426C750 322 838 142 1200 218V630H0V430Z" fill="#0E7490" fill-opacity=".18"/>
+  <circle cx="976" cy="144" r="172" fill="#22D3EE" fill-opacity=".12"/>
+  <circle cx="198" cy="512" r="190" fill="#34D399" fill-opacity=".1"/>
+  <text x="76" y="184" fill="#67E8F9" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="7">SOC ANALYST PORTFOLIO</text>
+  <text x="76" y="288" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="700">Muhammad Sufian</text>
+  <text x="76" y="366" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="500">Security+ Certified Cybersecurity Graduate</text>
+  <rect x="76" y="438" width="240" height="54" rx="8" fill="#22D3EE"/>
+  <text x="108" y="474" fill="#020617" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Alert triage</text>
+  <rect x="340" y="438" width="276" height="54" rx="8" fill="#34D399" fill-opacity=".18" stroke="#34D399"/>
+  <text x="374" y="474" fill="#D1FAE5" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Incident workflows</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg width="640" height="420" viewBox="0 0 640 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="420" rx="24" fill="#06111F"/>
+  <rect x="34" y="34" width="572" height="352" rx="20" fill="#171322" stroke="#C084FC" stroke-opacity=".5"/>
+  <circle cx="320" cy="174" r="82" fill="#A855F7" fill-opacity=".16" stroke="#D8B4FE" stroke-width="5"/>
+  <path d="M276 178L306 208L368 140" stroke="#F3E8FF" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="320" y="318" text-anchor="middle" fill="#FAF5FF" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Associate Fellow</text>
+  <text x="320" y="350" text-anchor="middle" fill="#D8B4FE" font-family="Arial, Helvetica, sans-serif" font-size="16">OIPD-UK</text>
+</svg>
