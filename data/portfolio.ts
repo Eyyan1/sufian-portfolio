@@ -1,3 +1,5 @@
+import { assetPath } from "@/lib/assets";
+
 export type SkillCategory = {
   title: string;
   skills: string[];
@@ -23,6 +25,7 @@ export type Certification = {
   issuer: string;
   note: string;
   image: string;
+  credentialUrl?: string;
   featured?: boolean;
 };
 
@@ -262,6 +265,7 @@ export const certifications: Certification[] = [
     issuer: "Microsoft Applied Skills",
     note: "Identity and directory administration",
     image: assetPath("/cert-active-directory.svg"),
+    credentialUrl: assetPath("/microsoft-learn-active-directory-credential.pdf"),
   },
   {
     title: "Pre Security Learning Path",
@@ -294,4 +298,3 @@ export const careerGoal = {
     "AI-assisted security operations",
   ],
 };
-import { assetPath } from "@/lib/assets";

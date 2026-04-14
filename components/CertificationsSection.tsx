@@ -1,4 +1,4 @@
-import { Award, BadgeCheck, Shield } from "lucide-react";
+import { Award, BadgeCheck, ExternalLink, Shield } from "lucide-react";
 import Image from "next/image";
 import { certifications, type Certification } from "@/data/portfolio";
 import { MotionSection } from "./MotionSection";
@@ -29,6 +29,17 @@ function CertificationCard({ cert }: { cert: Certification }) {
           </p>
           <h3 className="mt-2 text-lg font-semibold text-white">{cert.title}</h3>
           <p className="mt-2 text-sm leading-6 text-slate-300">{cert.note}</p>
+          {cert.credentialUrl ? (
+            <a
+              href={cert.credentialUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="mt-4 inline-flex items-center rounded-md border border-cyan-300/25 bg-cyan-300/10 px-3 py-2 text-sm font-semibold text-cyan-100 transition hover:border-cyan-200"
+            >
+              View Credential
+              <ExternalLink className="ml-2" size={15} aria-hidden="true" />
+            </a>
+          ) : null}
         </div>
       </div>
     </article>
@@ -75,6 +86,17 @@ export function CertificationsSection() {
                     {featured.title}
                   </h3>
                   <p className="mt-3 leading-7 text-slate-300">{featured.note}</p>
+                  {featured.credentialUrl ? (
+                    <a
+                      href={featured.credentialUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="mt-5 inline-flex items-center rounded-md border border-cyan-300/25 bg-cyan-300/10 px-3 py-2 text-sm font-semibold text-cyan-100 transition hover:border-cyan-200"
+                    >
+                      View Credential
+                      <ExternalLink className="ml-2" size={15} aria-hidden="true" />
+                    </a>
+                  ) : null}
                 </div>
               </div>
 
