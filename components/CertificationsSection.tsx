@@ -109,7 +109,7 @@ export function CertificationsSection() {
         </article>
       ) : null}
 
-      <div className="mt-6 grid gap-5 md:grid-cols-3">
+      <div className="mt-6 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
         {otherCertifications.map((cert) => (
           <CertificationCard key={cert.title} cert={cert} />
         ))}

@@ -1,0 +1,10 @@
+<svg width="640" height="420" viewBox="0 0 640 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="420" rx="24" fill="#06111F"/>
+  <rect x="34" y="34" width="572" height="352" rx="20" fill="#071827" stroke="#38BDF8" stroke-opacity=".55"/>
+  <path d="M320 82L444 130V214C444 288 392 337 320 360C248 337 196 288 196 214V130L320 82Z" fill="#0EA5E9" fill-opacity=".18" stroke="#7DD3FC" stroke-width="5"/>
+  <path d="M320 116V314C370 294 406 258 406 208V154L320 116Z" fill="#38BDF8" fill-opacity=".26"/>
+  <circle cx="320" cy="202" r="56" fill="#0F172A" stroke="#BAE6FD" stroke-width="8"/>
+  <path d="M292 202L314 224L354 178" stroke="#E0F2FE" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="320" y="320" text-anchor="middle" fill="#EFF6FF" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Microsoft Defender</text>
+  <text x="320" y="350" text-anchor="middle" fill="#7DD3FC" font-family="Arial, Helvetica, sans-serif" font-size="16">Microsoft Applied Skills</text>
+</svg>

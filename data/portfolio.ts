@@ -258,6 +258,7 @@ export const certifications: Certification[] = [
     issuer: "CompTIA",
     note: "Valid until 2029",
     image: assetPath("/cert-security-plus.svg"),
+    credentialUrl: "https://www.credly.com/badges/e947dfa4-3526-4dc8-9afa-68ad551ec9f4/linked_in_profile",
     featured: true,
   },
   {
@@ -265,19 +266,28 @@ export const certifications: Certification[] = [
     issuer: "Microsoft Applied Skills",
     note: "Identity and directory administration",
     image: assetPath("/cert-active-directory.svg"),
-    credentialUrl: assetPath("/microsoft-learn-active-directory-credential.pdf"),
+    credentialUrl: "https://learn.microsoft.com/api/credentials/share/en-us/Sufian-9119/39FA43AC512B86B8?sharingId",
+  },
+  {
+    title: "Microsoft Defender",
+    issuer: "Microsoft Applied Skills",
+    note: "Endpoint security and Microsoft Defender operations",
+    image: assetPath("/cert-microsoft-defender.svg"),
+    credentialUrl: "https://learn.microsoft.com/api/credentials/share/en-us/Sufian-9119/7F7BA556A39820AF?sharingId",
   },
   {
     title: "Pre Security Learning Path",
     issuer: "TryHackMe",
     note: "Networking, web, Linux, and security foundations",
     image: assetPath("/cert-tryhackme.svg"),
+    credentialUrl: "https://tryhackme.com/certificate/THM-YK1BAZB59M",
   },
   {
     title: "Associate Fellow",
     issuer: "OIPD-UK",
     note: "Professional development recognition",
     image: assetPath("/cert-oipd.svg"),
+    credentialUrl: "https://www.genuinein.com/info/smartcertificate?cid=e-I-H-Jnx-Pr-T0c-Bs-Og-U-W-I-Ox-Rjk-Av-E5-Xa-Hx-Su9ww-Ny-Js1l2a3s4hwe-Yqwg6-K-J4dt-Mvs1l2a3s4htn1x-L-X-M06",
   },
 ];
 
