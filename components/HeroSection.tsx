@@ -93,14 +93,14 @@ export function HeroSection() {
           initial={{ opacity: 0, scale: 0.96 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.28, duration: 0.8 }}
-          className="relative min-h-[420px] lg:min-h-[590px]"
+          className="relative min-h-[500px] lg:min-h-[660px]"
           style={{ y }}
         >
           <div className="absolute inset-x-8 bottom-0 top-24 rounded-full bg-cyan-300/14 blur-3xl" aria-hidden="true" />
           <div className="absolute right-4 top-8 h-44 w-44 rounded-full border border-cyan-300/20" aria-hidden="true" />
           <div className="absolute bottom-12 left-2 h-24 w-24 rounded-full border border-emerald-300/20" aria-hidden="true" />
 
-          <div className="absolute inset-x-0 top-0 mx-auto h-[78%] max-w-[560px] overflow-hidden rounded-md border border-cyan-300/18 bg-[#071423] shadow-2xl shadow-cyan-950/35">
+          <div className="absolute inset-x-0 top-0 mx-auto h-[74%] max-w-[560px] overflow-hidden rounded-md border border-cyan-300/18 bg-[#071423] shadow-2xl shadow-cyan-950/35">
             <Image
               src={assetPath("/muhammad-sufian-portrait.png")}
               alt="Portrait of Muhammad Sufian Bin Che Saad"
@@ -112,7 +112,7 @@ export function HeroSection() {
             <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(5,8,18,0.34)_0%,rgba(5,8,18,0)_42%),linear-gradient(180deg,rgba(5,8,18,0)_58%,rgba(5,8,18,0.82)_100%)]" />
           </div>
 
-          <div className="absolute inset-x-0 bottom-0 mx-auto max-w-[560px] rounded-md border border-white/10 bg-[#050812]/82 p-3 backdrop-blur-md">
+          <div className="absolute inset-x-0 bottom-0 mx-auto max-w-[560px]">
             <p className="px-1 text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">
               Credential Badges
             </p>
@@ -124,13 +124,13 @@ export function HeroSection() {
                       {badge.title}
                       <span className="block text-[11px] font-medium text-slate-400">{badge.subtitle}</span>
                     </span>
-                    <span className="relative block aspect-square overflow-hidden rounded-md border border-white/10 bg-white p-2 transition duration-200 group-hover:scale-110 group-hover:border-cyan-300/40 group-focus-visible:scale-110">
+                    <span className="relative block aspect-square overflow-hidden rounded-md border border-white/10 bg-transparent p-1 transition duration-200 group-hover:scale-110 group-hover:border-cyan-300/40 group-focus-visible:scale-110">
                       <Image
                         src={badge.image}
                         alt={`${badge.title} ${badge.subtitle} badge`}
                         fill
                         sizes="80px"
-                        className="object-contain p-1"
+                        className="object-contain"
                       />
                     </span>
                   </>
