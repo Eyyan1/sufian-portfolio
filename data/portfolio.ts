@@ -29,6 +29,13 @@ export type Certification = {
   featured?: boolean;
 };
 
+export type ProfileBadge = {
+  title: string;
+  subtitle: string;
+  image: string;
+  credentialUrl?: string;
+};
+
 export const profile = {
   name: "Muhammad Sufian Bin Che Saad",
   role: "SOC Analyst | Security+ Certified | Cybersecurity-Focused Software Engineering Graduate",
@@ -41,6 +48,32 @@ export const profile = {
   github: "https://github.com/Eyyan1",
   resumeUrl: assetPath("/SOC_muhd_sufian_resume.pdf"),
 };
+
+export const profileBadges: ProfileBadge[] = [
+  {
+    title: "CompTIA Security+",
+    subtitle: "Certified Plus Series",
+    image: assetPath("/badges/comptia-security-plus.png"),
+    credentialUrl: "https://www.credly.com/badges/e947dfa4-3526-4dc8-9afa-68ad551ec9f4/linked_in_profile",
+  },
+  {
+    title: "Google Cybersecurity",
+    subtitle: "Professional Certificate",
+    image: assetPath("/badges/google-cybersecurity.png"),
+  },
+  {
+    title: "Microsoft Applied Skills",
+    subtitle: "Active Directory",
+    image: assetPath("/badges/microsoft-applied-skills.jpg"),
+    credentialUrl: "https://learn.microsoft.com/api/credentials/share/en-us/Sufian-9119/39FA43AC512B86B8?sharingId",
+  },
+  {
+    title: "Microsoft Applied Skills",
+    subtitle: "Defender XDR",
+    image: assetPath("/badges/microsoft-applied-skills.jpg"),
+    credentialUrl: "https://learn.microsoft.com/api/credentials/share/en-us/Sufian-9119/7F7BA556A39820AF?sharingId",
+  },
+];
 
 export const navItems = [
   { label: "About", href: "#about" },
