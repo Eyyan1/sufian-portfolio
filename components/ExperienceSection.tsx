@@ -41,7 +41,7 @@ export function ExperienceSection() {
           <figure className="mt-8 overflow-hidden rounded-md border border-white/10 bg-[#050812]">
             <div className="relative aspect-[16/10]">
               <Image
-                src={assetPath("/internship-experience.png")}
+                src={assetPath("/internship-experience.webp")}
                 alt="Muhammad Sufian during an internship meeting and technical presentation"
                 fill
                 sizes="(min-width: 1024px) 34vw, 100vw"

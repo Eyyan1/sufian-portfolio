@@ -102,7 +102,7 @@ export function HeroSection() {
 
           <div className="absolute inset-x-0 top-0 mx-auto h-[74%] max-w-[560px] overflow-hidden rounded-md bg-[#071423] shadow-2xl shadow-cyan-950/35">
             <Image
-              src={assetPath("/muhammad-sufian-portrait.png")}
+              src={assetPath("/muhammad-sufian-portrait.webp")}
               alt="Portrait of Muhammad Sufian Bin Che Saad"
               fill
               priority
