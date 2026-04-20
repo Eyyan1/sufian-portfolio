@@ -93,7 +93,7 @@ export function HeroSection() {
           initial={{ opacity: 0, scale: 0.96 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.28, duration: 0.8 }}
-          className="relative min-h-[500px] lg:min-h-[660px]"
+          className="relative min-h-[460px] sm:min-h-[520px] lg:min-h-[660px]"
           style={{ y }}
         >
           <div className="absolute inset-x-8 bottom-0 top-24 rounded-full bg-cyan-300/14 blur-3xl" aria-hidden="true" />
@@ -116,7 +116,7 @@ export function HeroSection() {
             <p className="px-1 text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">
               Credential Badges
             </p>
-            <div className="mt-3 grid grid-cols-4 gap-2 sm:gap-3">
+            <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-4">
               {profileBadges.map((badge) => {
                 const badgeContent = (
                   <>
@@ -129,7 +129,7 @@ export function HeroSection() {
                         src={badge.image}
                         alt={`${badge.title} ${badge.subtitle} badge`}
                         fill
-                        sizes="80px"
+                        sizes="(min-width: 640px) 80px, 42vw"
                         className="object-contain"
                       />
                     </span>
